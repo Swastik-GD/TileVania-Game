@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 8058231385867067422}
   m_Layer: 8
   m_Name: Chotu (Player)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,7 +134,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1323175945
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 1857188551261513057, guid: 261a878a5877ef3429483cc485a5062e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
