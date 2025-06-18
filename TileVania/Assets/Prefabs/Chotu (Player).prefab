@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 7
-  jumpSpeed: 18
+  jumpSpeed: 22
   climbSpeed: 5
   deathKick: {x: -20, y: 20}
   bullet: {fileID: 4353469504637494976, guid: 781f5e88d95b9474ab9592f77437d1e3, type: 3}
