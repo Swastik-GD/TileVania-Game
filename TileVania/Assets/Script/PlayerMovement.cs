@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -127,8 +128,15 @@ public class PlayerMovement : MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("Dying");
             myrb.linearVelocity = deathKick;
-            FindObjectOfType<GameSession>().ProcessPlayerDeath();
+
+            StartCoroutine(DelayDeathTime());
         }
+    }
+
+    IEnumerator DelayDeathTime()
+    {
+        yield return new WaitForSeconds(2f);
+        FindObjectOfType<GameSession>().ProcessPlayerDeath();
     }
 }
     
